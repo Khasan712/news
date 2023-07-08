@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 70%; margin: 0 auto;">
+        <form action="" method="post">{% csrf_token %}
+            <input type="email" name="email" placeholder="Email">
+            <br>
+            <br>
+            <input type="text" name="password" placeholder="Parol">
+            <br>
+            <br>
+            <input type="submit" value="Register">
+        </form>
+        <a href="{% url 'social:begin' 'github' %}">Login with Github</a> <br/>
+    </div>
+</body>
+</html>
