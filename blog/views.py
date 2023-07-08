@@ -31,11 +31,5 @@ def category(request):
     return render(request, 'category.html')
 
 
-<<<<<<< HEAD
 def foo1():
     pass
-=======
-def foo():
-    pass
-
->>>>>>> 7b82e40 (Updated)
