@@ -31,5 +31,5 @@ def category(request):
     return render(request, 'category.html')
 
 
-def foo():
+def foo1():
     pass
